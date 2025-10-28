@@ -1,0 +1,14 @@
+database:
+  host: localhost
+  port: 3306
+  name: asuracore
+  user: root
+  password: ""
+  params: "?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Tokyo&allowPublicKeyRetrieval=true"
+
+pool:
+  max: 10
+  minIdle: 2
+  connectionTimeoutMs: 30000
+  idleTimeoutMs: 600000
+  leakDetectionMs: 0
